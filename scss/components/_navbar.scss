@@ -42,16 +42,11 @@
 	padding: 0px;
 	display: none;
 	color: white;
-	position: relative;
-	right: 0px;
-	top: 0px;
-	text-align: right;
 	input {
 		float: left;
 		width:35%;
 		padding: 15px;
 		margin: 0px 20px;
-		display: inline-block;
 		background: none;
 		outline: none;
 		border: none;
@@ -60,9 +55,7 @@
 	}
 	img {
 		float: right;
-		width: 30px;
 		height: 25px;
-		display: inline-block;
 		margin:  0px 20px;
 		padding: 10px;
 		border-bottom: 2px solid $smooth-red;

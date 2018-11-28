@@ -565,7 +565,11 @@ header {
     position: static; }
 
   .main-heading img {
-    width: 100%; } }
+    width: 100%; }
+
+  .arr-right, .arr-left {
+    font-size: 1.875rem;
+    border: 1px solid #ffffff7a; } }
 footer {
   padding: 80px 0px; }
 
@@ -787,17 +791,12 @@ footer {
 .humburger {
   padding: 0px;
   display: none;
-  color: white;
-  position: relative;
-  right: 0px;
-  top: 0px;
-  text-align: right; }
+  color: white; }
   .humburger input {
     float: left;
     width: 35%;
     padding: 15px;
     margin: 0px 20px;
-    display: inline-block;
     background: none;
     outline: none;
     border: none;
@@ -805,9 +804,7 @@ footer {
     border-bottom: 2px solid #f34334; }
   .humburger img {
     float: right;
-    width: 30px;
     height: 25px;
-    display: inline-block;
     margin: 0px 20px;
     padding: 10px;
     border-bottom: 2px solid #f34334; }
