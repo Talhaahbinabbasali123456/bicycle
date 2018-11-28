@@ -706,6 +706,21 @@
 		}
 	}
 }
+
+
+.tooltip {
+	position: relative;
+	.tooltip-popup {
+		width: 80px;
+		font-size: rem(14);
+		text-align: center;
+		padding: 2px 5px;
+		color: $white;
+		position: absolute;
+		top: -25px;
+		right: -50px;
+	} 
+}
 //===========================================
 // -Home Page end
 //===========================================

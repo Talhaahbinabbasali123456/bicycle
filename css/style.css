@@ -1464,5 +1464,16 @@ footer {
       margin: 0 auto; }
       .from-our-blog-container .sponsored-container img {
         width: 230px; } }
+.tooltip {
+  position: relative; }
+  .tooltip .tooltip-popup {
+    width: 80px;
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 2px 5px;
+    color: #fff;
+    position: absolute;
+    top: -25px;
+    right: -50px; }
 
 /*# sourceMappingURL=style.css.map */
