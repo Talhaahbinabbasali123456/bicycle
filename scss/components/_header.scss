@@ -1,0 +1,66 @@
+//===========================================
+// -Header start
+//===========================================
+header {
+	width: 100%;
+	z-index: 2;
+	background-color: $white;
+
+}
+
+.slider {
+	background-image: url("../images/image2.jpg");
+	padding: 170px 0px 80px 0px;
+	background-size: cover;
+	background-position: center;
+}
+.main-heading {
+	text-align: center;
+	p {
+		color: $white;
+		margin: -10px -15px 0px -15px;
+		padding: 40px 0px;
+		font-size: rem(28);
+		width: 100%;
+	}
+}
+.slider-arrow-cont {
+	position: relative;
+	top: -230px;
+	right: 0px;
+	padding: 0px 40px;
+}
+.arr-left {
+	float: left;
+	padding: 20px;
+	border: 2px solid $white;
+	color: $white;
+	i {
+		font-size: rem(18);
+		font-weight: bold;
+	}
+}
+.arr-right {
+	float: right;
+	padding: 20px;
+	border: 2px solid $white;
+	color: $white;
+	i {
+		font-size: rem(18);
+		font-weight: bold;
+	}
+}
+@include mq('lg', max) {
+	.slider-arrow-cont {
+		position: static;
+	}
+	.main-heading {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+//===========================================
+// -Header end
+//===========================================
