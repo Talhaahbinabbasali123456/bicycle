@@ -4,17 +4,18 @@
 footer {
 	padding: 80px 0px;
 }
-
+.footer-content-container {
+}
 .f-container-left {
 	padding-bottom: 30px;
 	float: left;
-	width: 430px;
+	max-width: 430px;
 	border-right: 1px solid #8080807d;
 }
 
 .f-container-right {
 	float: left;
-	width: 650px;
+	max-width: 650px;
 	padding: 0px 30px;
 }
 .f-container-left {
@@ -101,6 +102,7 @@ footer {
 .buy-info {
 	width: 200px;
 	float: left;
+	// text-align: center;
 }
 .f-icon-div {
 	padding-bottom: 35px;

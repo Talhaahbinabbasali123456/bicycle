@@ -1,23 +1,30 @@
 //===========================================
-	// -Navbar start
+// -Navbar start
 //===========================================
 .side-navbar {
 	position: fixed;
 	top: 0px;
 	right: 0px;
-	width: 92%;
-	height: 100vh;
-	background-image: url("../images/images8.jpg");
+	width: 100%;
+	background-image: url("../images/image2.jpg");
+	background-size: cover;
+	background-position: center;
 	color: $smooth-red;
 	z-index: 10;
-	overflow: scroll;
-	padding: 20px;
-	font-size: rem(25);
+	transition: 500ms;
+	font-size: rem(28);
+	.side-nav-layout {
+		width: 100%;
+		background-color: #000000b0;
+		height: 100vh;
+		overflow: scroll;
+		padding: 20px;
+	}
 	ul 	{
 		padding-bottom: 30px;
 		li {
 			padding: 10px 20px;
-
+			
 		}
 	}
 	a {
@@ -29,29 +36,38 @@
 	}
 	img {
 		height: 20px;
-		border-radius: 50%;
+		border-radius: 10%;
 		width: 20px;
 		transition: 100ms;
 		padding: 10px;
-		&:hover {
-			background-color: #f3433440;
-		}
 	}
 }
 .humburger {
 	padding: 0px;
 	display: none;
 	color: white;
-	input {
+	div {
 		float: left;
-		width:35%;
-		padding: 15px;
+		padding: 0px;
 		margin: 0px 20px;
-		background: none;
-		outline: none;
-		border: none;
+		position: relative;
+		color: $white;
+		display: table;
 		font-size: rem(25);
 		border-bottom: 2px solid $smooth-red;
+		input {
+			display: table-cell;
+			background-color: $theme-h-c;
+			background: none;
+			outline: none;
+			border: none;
+			padding: 15px;
+		}
+		i{
+			display: table-cell;
+			vertical-align: middle;
+			
+		}
 	}
 	img {
 		float: right;
@@ -129,6 +145,7 @@
 
 .nav-mid {
 	padding: 35px 0px; 
+	transition: 900ms;
 	
 	h1 {
 		float: left;
@@ -146,9 +163,36 @@
 			display: inline-block;
 			border: 1px solid #5b5b5b66;
 			padding: 15px 25px;
-			span {
+			div {
+				border: none;
+				position: relative;
 				padding: 0px 30px 0px 0px;
 				color: $theme-t-c;
+				.dropdown {
+					margin: 0px;
+					z-index: 2;
+					width: 145px;
+					background-color: $white;
+					position: absolute;
+					left: -30px;
+					top: 34px;
+					padding: 0px 25px;
+					border: 1px solid gray;
+					p {
+						border-bottom: 1px solid #ff000061;
+						&:hover {
+							color: $smooth-red;
+						}
+					}
+				}
+			}
+			.drop-open {
+				cursor: pointer;
+				
+			}
+			.drop-close {
+				cursor: pointer;
+				display: none;
 			}
 			input {
 				width: 300px;
@@ -254,5 +298,5 @@
 
 
 //===========================================
-	// -Navbar end
+// -Navbar end
 //===========================================

@@ -146,10 +146,10 @@
 			color: $smooth-red;
 		}
 		.last {
-			margin-top: 50px;
+			margin: 50px 0px;
 		}
 		.bullets {
-			padding: 0px 8px;
+			padding: 1px 10px;
 			margin: 0px 3px;
 			border-radius: 100%;
 			visibility: hidden;
@@ -194,7 +194,11 @@
 				width: 50%;
 				
 			}
+			.bullets {
+				padding: 4px 9px;
+			}
 		}
+		
 	}
 }
 
@@ -248,6 +252,11 @@
 					font-size: rem(25);
 					font-weight: bolder;
 					color: $black;
+					display: block;
+				}
+				span {
+					display: block;
+					
 				}
 			}
 		}
@@ -259,10 +268,11 @@
 			h3 {
 				font-size: 25px;
 				color: $smooth-red;
+				text-align: left;
 			}
 		}
 		.color {
-			padding: 25px 10px;
+			padding: 20px 10px;
 			margin: 0px 5px;
 			border-bottom: 1px solid #8080807d;
 			:nth-child(1) {
@@ -506,9 +516,13 @@
 	background-image: url("../images/img8.png");
 	background-size: cover;
 	background-position: center;
-	padding: 80px 0px 80px 0px;
-	text-align: center;
-	color: #ffffff;
+	.git-layout {
+		background-color: #1919199c;
+		padding: 80px 0px 80px 0px;
+		text-align: center;
+		color: #ffffff;
+		
+	}
 	h1 {
 		font-size: rem(30);
 	}
@@ -616,6 +630,7 @@
 		}
 	}
 	.sponsored-container {
+		text-align: center;
 		padding-top: 24px;
 		img {
 			width: 192px;
@@ -653,7 +668,6 @@
 			}
 		}
 		.sponsored-container {
-			text-align: center;
 			margin: 0 auto;
 			img {
 				width: 230px;
@@ -698,7 +712,6 @@
 			}
 		}
 		.sponsored-container {
-			text-align: center;
 			margin: 0 auto;
 			img {
 				width: 230px;
