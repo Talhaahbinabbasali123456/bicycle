@@ -15,7 +15,7 @@
 	font-size: rem(28);
 	.side-nav-layout {
 		width: 100%;
-		background-color: #000000b0;
+		background-color: #000000d6;
 		height: 100vh;
 		overflow: scroll;
 		padding: 20px;
@@ -49,7 +49,7 @@
 	div {
 		float: left;
 		padding: 0px;
-		margin: 0px 20px;
+		margin: 0px 18px;
 		position: relative;
 		color: $white;
 		display: table;
@@ -61,18 +61,20 @@
 			background: none;
 			outline: none;
 			border: none;
-			padding: 15px;
+			margin: 0px;
+			padding: 15px 20px 15px 15px;
 		}
 		i{
 			display: table-cell;
 			vertical-align: middle;
-			
+			padding: 0px;
+			margin: 0px;
 		}
 	}
 	img {
 		float: right;
 		height: 25px;
-		margin:  0px 20px;
+		margin:  0px 18px;
 		padding: 10px;
 		border-bottom: 2px solid $smooth-red;
 	}
@@ -84,6 +86,7 @@
 .nav-top {
 	padding: 0px;
 	font-size: rem(14);
+	transition: 200ms;
 	
 	.nt-left {
 		padding: 0px;
@@ -145,7 +148,7 @@
 
 .nav-mid {
 	padding: 35px 0px; 
-	transition: 900ms;
+	transition: 200ms;
 	
 	h1 {
 		float: left;
@@ -170,16 +173,18 @@
 				color: $theme-t-c;
 				.dropdown {
 					margin: 0px;
-					z-index: 2;
 					width: 145px;
+					z-index: 2;
 					background-color: $white;
 					position: absolute;
 					left: -30px;
 					top: 34px;
 					padding: 0px 25px;
-					border: 1px solid gray;
+					border: 1px solid #5b5b5b66;
 					p {
-						border-bottom: 1px solid #ff000061;
+						color: $black;
+						font-weight: bolder;
+						cursor: pointer;
 						&:hover {
 							color: $smooth-red;
 						}
@@ -207,7 +212,7 @@
 			margin: 0px;
 			position: relative;
 			input {
-				padding: 15px 25px;
+				padding: 15px 40px 15px 20px;
 			}
 			i {
 				position: absolute;

@@ -58,8 +58,8 @@
             </ul>
             <ul>
                 <li>
-                    <i class="icon-bicycle-heart"></i>
-                    <a href="#">Cart : $199.00</a>
+                    <i class="icon-bicycle-heart"></i> 
+                    <a href="#">Cart : $199.00</a> 
                     <i class="icon-bicycle-shopping-bag"></i>
                 </li>
             </ul>
@@ -96,7 +96,7 @@
                             <div class="dropdown hidden animated fadeInDown">
                                 <div class="drop-layout">
                                     <p>bicyle</p> 
-                                    <p>jumper</p> 
+                                    <p>jumper</p>  
                                     <p>gear</p> 
                                     <p>sport</p> 
                                     <p>simple</p> 
@@ -110,8 +110,9 @@
                         <i class="icon-bicycle-cancel-circle drop-close" onclick="dropdownClose()"></i>
                     </div>
                     <div class="input-div">
-                        <input type="text" placeholder="Search for product" id = "autocomplete-4">
-                        <i class="icon-bicycle-search"></i>
+                        <input type="text" placeholder="Search for product" id = "autocomplete-4"  class="min-bar-inp">
+                        <i class="icon-bicycle-search search-icon"></i>
+                        <i class="icon-bicycle-cancel-circle cross hidden" onclick="cross()"></i>
                     </div>
                 </div>
             </div>
@@ -150,8 +151,9 @@
                             <div class="humburger clearfix">
                                 <img onclick="sideNavOpen()" src="images/humbuger.png" alt="">
                                 <div>
-                                    <input type="text" placeholder="Search for product" id="autocomplete-2">
-                                    <i class="icon-bicycle-search"></i>
+                                    <input type="text" placeholder="Search for product" class="small_screen-inp" id="autocomplete-2">
+                                    <i class="icon-bicycle-search search-icon2"></i>
+                                    <i class="icon-bicycle-cancel-circle cross2 hidden" onclick="crossSmallScreen()"></i>
                                 </div>
                             </div>
                             <!--  -->
@@ -234,19 +236,19 @@
             <div class="feature-main-container">
                 <div class="main-container">
                     <div class="feature-container clearfix">
-                        <div class="fc-1">
+                        <div class="fc">
                             <div class="fc-content">
                                 <h1 class="text-center">FREE UK DELIVERY</h1>
                                 <p class="text-center">International delivery available</p>
                             </div>
                         </div>
-                        <div class="fc-2">
+                        <div class="fc">
                             <div class="fc-content border">
                                 <h1 class="text-center">GIFT CARDS & WRAPPING</h1>
                                 <p class="text-center">The perfect way to bring a smile</p>
                             </div>
                         </div>
-                        <div class="fc-3">
+                        <div class="fc">
                             <div class="fc-content">
                                 <h1 class="text-center">QUALIFIED OPTICIANS</h1>
                                 <p class="text-center">prescription Experts</p>
@@ -282,8 +284,8 @@
                     <div class="fp-box-container clearfix">
                         <div class="box">
                             <div class="b-img bg-img1">
-                                <button class="button bt">Add to cart</button>
-                                <button class="button bt">Quick view</button>
+                                <button class="button bt animated fadeInLeft faster">Add to cart</button>
+                                <button class="button bt animated fadeInRight  faster">Quick view</button>
                             </div>
                             <p class="text-center a">Propel Advanced SL 0</p>
                             <p class="text-center b">$900.00</p>
@@ -297,8 +299,8 @@
                         </div>
                         <div class="box">
                             <div class="b-img bg-img2">
-                                <button class="button bt">Add to cart</button>
-                                <button class="button bt">Quick view</button>
+                                <button class="button bt animated fadeInLeft faster">Add to cart</button>
+                                <button class="button bt animated fadeInRight  faster">Quick view</button>
                             </div>
                             <p class="text-center a">Defy Advanced SL</p>
                             <p class="text-center b">$1,770.00</p>
@@ -312,8 +314,8 @@
                         </div>
                         <div class="box">
                             <div class="b-img bg-img3">
-                                <button class="button bt">Add to cart</button>
-                                <button class="button bt">Quick view</button>
+                                <button class="button bt animated fadeInLeft faster">Add to cart</button>
+                                <button class="button bt animated fadeInRight  faster">Quick view</button>
                             </div>
                             <p class="text-center a">FastRoad CoMax</p>
                             <p class="text-center b">$900.00</p>
@@ -336,7 +338,6 @@
                     <div class="pdc-cont">
                         <div class="pd-img">
                             <div class="pd-img-box">
-                                
                             </div>
                         </div>
                         <div class="pd-detail-cont">
